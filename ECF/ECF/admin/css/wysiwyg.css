@@ -1,0 +1,91 @@
+body {
+	font-family: Arial;
+	font-size: 12px;
+	line-height: 15px;
+}
+h1 {
+	color: #aaaa86;
+	font-size: 22px;
+	font-weight: normal;
+	padding-bottom: 10px;
+	font-family: "Helvetica Neue";
+	line-height: 24px;
+}
+h2 {
+	color: #aaaa86;
+	font-size: 20px;
+	font-weight: normal;
+	padding-bottom: 5px;
+	font-family: "Helvetica Neue";
+	line-height: 22px;
+}
+h3 {
+	color: #aaaa86;
+	font-size: 18px;
+	font-weight: normal;
+	padding-bottom: 5px;
+	line-height: 20px;
+	font-family: "Helvetica Neue";
+	line-height: 20px;
+}
+a {
+	color: #990000;
+}
+a:hover {
+	color: #aaaa86;
+}
+p {
+	padding-bottom: 5px;
+	line-height: 18px;
+}
+
+.lightgreen {
+	color: #aaaa86;
+}
+
+.small-text {
+	font-size: 10px;
+	font-style: normal;
+	line-height: 12px;
+}
+a.red-arrow {
+	background-image: url(images/red-arrow.gif);
+	background-position: right center;
+	background-repeat: no-repeat;
+	padding: 0 10px 0 0;
+}
+.red-arrow:hover {
+	background-image: url(images/red-arrow-hover.gif);
+}
+
+.red-btn {
+	background-color: #b21f2a;
+	background-image: url(images/red-btn-arrow.gif);
+	background-position: right center;
+	background-repeat: no-repeat;
+	padding: 3px 23px 3px 7px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 10px;
+	text-decoration: none;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.red-btn:hover {
+	background: #aaaa86;
+	background-image: url(images/red-btn-arrow-hover.gif);
+	background-position: right center;
+	background-repeat: no-repeat;
+	color: #fff;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.pdf {
+	padding: 0;
+	margin: 0 0 20px 0;
+}
+.pdf li {
+	list-style: none;
+	background: url(images/pdf.gif) left center no-repeat;
+	padding: 5px 0 5px 25px;
+}

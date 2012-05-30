@@ -1,0 +1,5 @@
+AuthName "ECF Restricted Area" 
+AuthType Basic 
+AuthUserFile /var/www/vhosts/pixelgroup.co.uk/subdomains/staging/httpdocs/ecf/v2/.htpasswd 
+AuthGroupFile /dev/null 
+require valid-user

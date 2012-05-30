@@ -1,0 +1,140 @@
+body {
+	font-family: Arial;
+	font-size: 11px;
+	background-color: #ebebe0;
+	color: #000;
+}
+p {
+	line-height: 20px;
+	padding-bottom: 20px;
+}
+label {
+	font-weight: bold;
+}
+label.chkbox {
+	padding-left: 5px;
+}
+input {
+	padding: 5px;
+	font-family: Arial;
+	font-size: 11px;
+}
+select.normal,
+input.normal {
+	width: 250px;
+	padding: 4px;
+	border: 1px solid #ccc;
+	font-family: Arial;
+	font-size: 11px;
+}
+input.small {
+	width: 50px;
+	padding: 4px;
+	border: 1px solid #ccc;
+	font-family: Arial;
+	font-size: 11px;
+}
+textarea {
+	border: 1px solid #ccc;
+}
+textarea.xlarge {
+	width: 600px;
+	height: 250px;
+}
+textarea.large {
+	width: 450px;
+	height: 150px;
+}
+
+textarea.normal {
+	width: 350px;
+	height: 50px;
+	font-family: Arial;
+	font-size: 11px;
+	padding: 5px;
+}
+fieldset {
+	border: 1px solid #ccc;
+	padding: 15px 15px 5px 15px;
+	margin-bottom: 20px;
+}
+
+legend {
+	padding: 0 7px 0 7px;
+	font-weight: bold;
+	font-size: 14px;
+	color: #000;
+  }
+  
+  h2 {
+  	font-size: 16px;
+  	font-weight: bold;
+  	
+  	margin-bottom: 15px;
+  }
+a {
+	color: #990000;
+}
+a:hover {
+	color: #aaaa86;
+}
+#nav {
+	background-color: #fff;
+	width: 720px;
+	margin: 0 20px 10px 20px;
+	padding: 10px;
+}
+#nav a {
+	padding: 0 5px 0 5px;
+}
+#nav a.on {
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+}
+#logo {
+	background-color: #fff;
+	width: 149px;
+	padding: 20px;
+	margin: 20px 20px 10px 20px;
+}
+#container {
+	width: 700px;
+	margin: 0 20px 20px 20px;
+	background-color: #fff;
+	padding: 20px 20px 5px 20px;
+}
+
+
+#cs-table {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+#cs-table th {
+	background-color: #e6e6e6;
+	font-weight: bold;
+}
+
+#cs-table td,
+#cs-table th {
+	padding: 5px;
+	border: 1px solid #e6e6e6;
+}
+#cs-table form {
+ display: inline;
+ padding-left: 5px;
+ padding-right: 5px;
+}
+
+#cs-table th.thin,
+#cs-table td.thin {
+	width: 115px;
+	text-align: right;
+}
+.submitbox input {
+	margin-right: 15px;
+}
+.message {
+	color: #990000;
+}
